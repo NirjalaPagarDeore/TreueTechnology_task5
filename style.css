@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.testimonial{
+    padding: 40px 0;
+    background-color:#f1f1f1;
+    color:#434343;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.border{
+    width: 160px;
+    height: 5px;
+    background-color: #6ab04c;
+    margin: 26px auto;
+}
+.row{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.test{
+    background-color: #fff;
+    padding: 30px;
+}
+.test img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.test p{
+    font-size: 19px;
+}
+.name{
+    margin: 20px 0;
+    text-align: right;
+    color: rgb(69, 139, 116);
+    font-style: italic;
+}
+.img .card{
+    height: 300px;
+}
+.img .card .card-body img{
+    width: 400px;
+    height: 200px;
+}
+.img .card {
+    background-color: rgb(100, 100, 156);
+}
+
+#card .card-body{
+    background-color: rgb(105, 105, 124);
+}
